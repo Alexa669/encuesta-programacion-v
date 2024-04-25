@@ -1,0 +1,91 @@
+
+        body {
+            font-family: "Arial", sans-serif;
+            background-color: #ffffff; /* Color de fondo */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centrar el contenido horizontalmente */
+            justify-content: center; /* Centrar el contenido verticalmente */
+            height: 100vh; /* Altura completa de la vista */
+            margin: 0; /* Eliminar margen */
+        }
+
+        .container {
+            width: 65%; /* Ancho del contenedor */
+            align-items: center;
+            background-color: rgb(217, 227, 227);
+            padding: 20px;
+
+        }
+        nav {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            margin-bottom: 2em;
+            width: 100%;
+        }
+        #ingreso{
+            margin-bottom: 3em;
+        }
+
+        #ingreso, #visualizacion {
+            text-align: left;
+        }
+        #encuestaForm div {
+            margin-bottom: 1em; 
+        }
+        #encuestaForm label {
+            display: block;
+            margin-bottom: 0.5em; 
+        }
+        #encuestaForm input {
+            display: block;
+            margin: 2em auto;
+        }
+        #encuestaForm button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            display: block;
+            margin: 0; 
+        }
+        #encuestaForm button:hover {
+            background-color: #45a049;
+        }
+        #visualizacion table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        #visualizacion td, #visualizacion th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        #visualizacion tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        #visualizacion tr:hover {
+            background-color: #ddd;
+        }
+        #visualizacion th {
+            padding-top: 20px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        #visualizacion button {
+            background-color: #4CAF50; 
+            color: white; 
+            padding: 10px 20px; 
+            border: none; 
+            cursor: pointer; 
+        }
+        
+        #visualizacion button:hover {
+            background-color: #45a049; 
+        }
+ 

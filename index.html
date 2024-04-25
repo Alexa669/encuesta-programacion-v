@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Seguimiento de Encuestas</title>
+    <style>
+        /* Aquí puedes agregar tus estilos CSS */
+    </style>
+    <link href="styles.css", rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <nav>
+        Encuesta de Seguimiento
+    </nav>
+    <section id="ingreso">
+        <form id="encuestaForm">
+            <div><label for="preferencia">¿Prefieres las clases virtuales o presenciales?</label>
+                <select id="preferencia">
+                    <option value="">Selecciona una opción</option>
+                    <option value="virtuales">Virtuales</option>
+                    <option value="presenciales">Presenciales</option>
+                </select>
+            </div>
+                <div><label for="comodidad">¿Te sientes cómodo participando en las clases virtuales?</label>
+                <select id="comodidad">
+                    <option value="">Selecciona una opción</option>
+                    <option value="si">Sí</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div><label for="efectividad">¿Crees que aprendes de manera efectiva en las clases virtuales?</label>
+                <textarea id="efectividad" placeholder="Escribe tu respuesta aquí"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="visualizacion">
+        <table id="tablaEncuestas">
+            <h3>Resumen de Encuestas respondidas: </h3>
+        </table>
+    </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
